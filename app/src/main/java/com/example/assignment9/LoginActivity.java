@@ -41,6 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         loginUsername = findViewById(R.id.loginUserName);
         loginPassword = findViewById(R.id.loginPassword);
 
+        // login listener
         button_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,6 +60,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        // register listener
         registerScreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
